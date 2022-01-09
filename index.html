@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my page</title>
+    <style> 
+    p{text-align: center;}
+        *{
+    margin: 0px;
+    padding: 0px;
+}
+/* css for navbar */
+#navbar{
+    background-color: black;
+    font-size: 30px;
+ display: flex;
+ flex-direction: row;
+width: 100%;
+align-items: center;
+justify-content: center;
+margin-bottom: 15px;
+}
+ul{
+    
+    margin-top: 5px 5px;
+    display: flex; 
+
+}
+#navbar li{
+    margin: 30px 20px;
+    font-size: large;
+    list-style:none;
+}
+
+ #link{
+    text-decoration: none;
+    padding: 4px;
+    color: white;
+    font-weight: bold;
+    border-radius: 18px;
+    padding: 8px;
+    margin: 10px;
+    font-size: 20px;
+    font-style: unset;
+}
+#link:hover{
+    
+  background-color: orange;
+}
+.box1{
+    width: 35%;
+    margin: auto;
+    height: 175px;
+    border: 4px solid hotpink;
+    overflow: scroll;
+    padding: 10px;
+}
+a{
+    color: hotpink;
+}
+.img{
+    width: 100px;
+    height: 150px;
+    background:  center / cover no-repeat url('https://cdn.pixabay.com/photo/2020/06/30/15/08/notebook-5356695__340.jpg');
+}
+.box2{
+    margin: 40px 100px;
+    width: 200px;
+    height: 200px;
+    background:  center / cover no-repeat url('https://media.istockphoto.com/photos/view-of-the-magnitogorsk-metallurgical-plant-picture-id1136564098?b=1&k=20&m=1136564098&s=170667a&w=0&h=nQ-E8uFFxW7XAd8n-OlsZ9MVTie_QcvAtBf3wQHTmC8=');
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+.content{
+    position: absolute;
+    right: 200px;
+    bottom: 70px;
+    text-align: center;
+}
+.box3{
+    
+    
+    width: 350px;
+
+    height: 150px;
+    
+    
+
+    margin-bottom: 15px;
+}
+
+    
+
+.first{
+    background-color: hotpink;
+    font-family: Arial;
+    height: 20%;
+}
+.second{
+    background-color: pink;
+    font-family: Courier;
+    height: 40%;
+}
+.third{
+    background-color: lightpink;
+    font-family: Corsiva;
+    height: 40%;
+}
+button{
+    width: 200px;
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+}
+ /* css for footer */
+ .bottom{
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    align-items: center;
+    font-family: 'yeon sung';
+    position: fixed;
+    bottom: 1px;
+    width: 100%;
+ }
+ center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+        <li><a id="link" href="#">Home</a></li>
+        <li><a id="link" href="#">ABOUT</a></li>
+        <li><a id="link" href="#">BOOK</a>
+        <li> <a id="link" href="#">CONTACT</a></li>
+    </ul>
+    </nav>
+    <div class="box1">
+        <h1>Asignment 1</h1><br>
+        <span>Hey! it looks like a paragraph but there is a block box here too. Find that HTML element other than p and h</span><br><br>
+        <a href="#">This is a link to the Google</a><br><br>
+        <div class="img"></div>
+    </div>
+    <div class="box2"></div>
+    <div class="content">
+        <div class="box3">
+            <div class="first">This is a hotpink paragraph , font family in Arial</div>
+            <div class="second">This is a pink paragraph , font family in Courier</div>
+            <div class="third">This is a lightpink paragraph , font family in Cursiva</div>
+        </div>
+        <button>This is a button</button>
+    </div>
+    <div class="bottom"> Study button, input, form and textarea elements</div>
+</body>
+</html>
